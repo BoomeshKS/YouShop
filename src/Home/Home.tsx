@@ -69,6 +69,11 @@ function App() {
                   key={item.name}
                   href="#"
                   className="hp-nav-item"
+                  onClick={() => {
+                    if (item.name === 'Products') {
+                      nv('/product');
+                    }
+                  }}
                 >
                   <span className="flex items-center gap-2">
                     {React.cloneElement(item.icon, { 
@@ -111,6 +116,11 @@ function App() {
                     key={item.name}
                     href="#"
                     className="hp-mobile-nav-item"
+                    onClick={() => {
+                      if (item.name === 'Products') {
+                        nv('/product');
+                      }
+                    }}
                   >
                     {React.cloneElement(item.icon, { 
                       className: "text-[#00ff88]",
