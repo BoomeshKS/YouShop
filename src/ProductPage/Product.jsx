@@ -1,8 +1,8 @@
 /* eslint-disable react/prop-types */
 import React from 'react';
 import { ShoppingCart, Star, TrendingUp, Heart, Home } from 'lucide-react';
-import './Product.css';
 import {useNavigate} from 'react-router-dom';
+import './Product.css';
 import { Mail, Phone, MapPin } from 'lucide-react';
 
 

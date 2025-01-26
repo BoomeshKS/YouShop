@@ -73,6 +73,9 @@ function App() {
                     if (item.name === 'Products') {
                       nv('/product');
                     }
+                    if (item.name === 'Deals') {
+                      nv('/deals');
+                    }
                   }}
                 >
                   <span className="flex items-center gap-2">
@@ -119,6 +122,9 @@ function App() {
                     onClick={() => {
                       if (item.name === 'Products') {
                         nv('/product');
+                      }
+                      if (item.name === 'Deals') {
+                        nv('/deals');
                       }
                     }}
                   >

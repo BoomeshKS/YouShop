@@ -8,7 +8,6 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
-  background-color: #0a0a0a;
   color: #ffffff;
 }
 
@@ -16,6 +15,10 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/home.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 header {
